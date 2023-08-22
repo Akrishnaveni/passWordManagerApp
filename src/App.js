@@ -1,5 +1,7 @@
 import './App.css'
 
-const App = () => <div>Hello World</div>
+import './components/PasswordManager/index'
+
+const App = () => <PasswordManager />
 
 export default App
